@@ -16,7 +16,7 @@
 2. เขียนโค้ดใน branch ตัวเอง
 3. Push ขึ้น GitHub
 4. เปิด Pull Request เข้า dev
-5. ให้เพื่อน review อย่างน้อย 1 คน
+5. ให้เพื่อน review อย่างน้อย 1 คน.
 6. Merge เข้า dev.
 7. dev จะไป main เมื่อโปรเจกต์พร้อมทุก Feature
 
