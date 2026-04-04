@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(cat:*)",
+      "Bash(npm test:*)",
+      "Bash(npx jest:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm run test:e2e:*)",
+      "Bash(npx playwright install:*)"
+    ]
+  }
+}
