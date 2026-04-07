@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Sarabun } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const sarabun = Sarabun({ subsets: ['thai', 'latin'], weight: ['400', '500', '600', '700'] })
 
 export const metadata: Metadata = {
   title: 'RichSave - Smart Savings & Deal Discovery',
@@ -15,8 +15,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="th">
+      <body className={sarabun.className}>
+        <div id="_top" style={{ position: 'absolute', top: 0, left: 0 }} />
         {children}
       </body>
     </html>
