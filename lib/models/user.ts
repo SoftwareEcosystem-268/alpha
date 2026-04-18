@@ -22,7 +22,7 @@ export class UserModel {
       createdAt: new Date(),
       updatedAt: new Date(),
     }
-    const result = await db.collection(this.collectionName).insertOne(user)
+    const result = await db.collection(this.collectionName).insertOne(user as any)
     return { ...user, _id: result.insertedId.toString() }
   }
 
