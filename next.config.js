@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['localhost', 'images.unsplash.com', 'api.mapbox.com'],
+    domains: ["localhost", "images.unsplash.com", "api.mapbox.com"],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
